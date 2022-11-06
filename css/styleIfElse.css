@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    color: green;
+    margin: 0;
+}
+
+.dark {
+    color: yellow;
+    background: crimson;
+}

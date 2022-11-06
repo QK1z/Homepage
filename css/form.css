@@ -1,0 +1,78 @@
+.formPartOne__labelText {
+    width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.formPartOne__field {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.formPartFour__field {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.formPartOne__textArea {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.formPartTwo__textArea {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    max-width: 800px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.formPartThree__textArea {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 5px;
+}
+
+.sendButton_button {
+    width: 100%;
+    border: none;
+    background-color: rgb(41, 112, 53);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sendButton_button:hover {
+    background-color: hsl(130, 46%, 35%);
+}
+
+.sendButton_button:active {
+    background-color: hsl(130, 46%, 40%);
+}
+
+.formPartOne__fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.formPartOne__legend {
+    background-color: rgb(41, 112, 53);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}

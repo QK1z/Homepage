@@ -1,0 +1,37 @@
+.table{
+    font-family: 'Roboto Condensed', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.tableCell {
+    border: 1px;
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+   
+}
+
+.caption{
+    caption-side: bottom;
+    text-align: right;
+}
+
+.tableHeader{
+    background-color: yellowgreen;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-style:italic;
+}
+
+.tableRow:nth-child(even) {
+    background-color: rgb(231, 44, 19);
+}
+
+.tableRow:hover {
+    background-color: aqua;
+}
+
+.container{
+    overflow-x: auto;
+}

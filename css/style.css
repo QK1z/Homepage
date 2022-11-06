@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-image: url('https://i.ibb.co/dQB7vFF/discgolfx.jpg');
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    font-family: "Lato", sans-serif;
+    padding: 10px 40px 40px 40px;
+    overflow-x: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.section {
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+    border-color: #848a83;
+    color: #3d3d3d;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: italic;
+    padding: 5px;
+    
+}
+.text {
+    text-align: justify;
+}
+.subsection {
+    color: #3d3d3d;
+}
+
+.image {
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    margin-top: 35px;
+    box-shadow: 5px 5px 18px 3px #515151;
+}
+
+.secondButton {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.button {
+    margin: 0 auto;
+}
+
+.dark {
+    color: #f1f1f1;
+    background: hsl(0, 0%, 63%);
+}
+
+.background {
+    background-color: rgb(255, 255, 250);
+}
+
+.important {
+    color: rgb(19, 88, 179);
+
+}

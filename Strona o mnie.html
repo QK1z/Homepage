@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paweł Kotlarek - przyszły frontend developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <nav>
+        <button class="button js-otherBackground"><span class="theme">Ciemny</span> motyw</button>
+        <ul class="navigation">
+            <li class="navigation__item"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#zainteresowania">Zainteresowania</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#zawodowo">Zawodowo</a></li>
+        </ul>
+    </nav>
+    <main>
+        <header class="header">
+            <h1 class="header__name">Paweł Kotlarek</h1>
+            <div class="header__image">
+                <img class="image" width="200" src="https://imgupload.pl/images/2022/06/08/my2.jpg" alt="with my wife">
+            </div>
+            <p>
+                <button class="secondButton js-removeImageButton">Usuń zdjęcie</button>
+            </p>
+        </header>
+        <article>
+            <section id="o-mnie">
+                <h2 class="section">Kilka słów o mnie</h2>
+
+                <p class="text"> Nie jestem ideałem, choć nie ukrywam, że fajnie by było nim być 😅 Staram się być dobry
+                    dla wszystkich, bo to dobro zawsze wraca. Jestem dość spokojny, ale miewam gorsze dni jak każdy.
+                    Bardzo lubie rozmawiać, pomagać innym, niekoniecznie licząc na odwzajemnienie. Staram się nie
+                    oceniać innych. Poniżej inne ciekawostki dotyczące mojej osoby.</p>
+            </section>
+            <section id="zainteresowania">
+                <h2 class="section">Zainteresowania</h2>
+                <h3 class="section"><i>Sport</i></h3>
+                <p class="text">Od dziecka aktywność była dla mnie czymś naturalnym. Od niedawna stawiam swoje pierwsze
+                    kroki grając
+                    w disc golfa, poza tym interesuję się piłką nożną, ale na chwilę obecną wyłącznie jako kibic zza
+                    ekranu telewizora, oglądając swoją ulubioną <span class="important"><strong>FC Barcelonę
+                        </strong></span>.
+                </p>
+                <p class="text">Poniżej zestawienie moich ulubionych zawodników (byłych i obecnych):</p>
+                <div class="tableContainer">
+                    <table class="table">
+                        <caption class="table__caption"> Tab. 1. Moi ulubieni zawodnicy FC Barcelony </caption>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="col">Lp.</th>
+                            <th class="table__cell table__cell--header" scope="col">Imię i nazwisko</th>
+                            <th class="table__cell table__cell--header" scope="col">Pozycja</th>
+                            <th class="table__cell table__cell--header" scope="col">Narodowość</th>
+                            <th class="table__cell table__cell--header" scope="col">Obecny klub</th>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell" scope="row">1.</th>
+                            <td class="table__cell"><a
+                                    href=https://www.transfermarkt.pl/lionel-messi/profil/spieler/28003>Leo
+                                    Messi</a> </td>
+                            <td class="table__cell">Napastnik</td>
+                            <td class="table__cell"><img class="flagsOfTheCounties" width="20"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg?download"
+                                    alt="flaga Argentyny"> Argentyna</td>
+                            <td class="table__cell"><img class="clubsLogos" width="20"
+                                    src="https://wszystkiesymbole.pl/wp-content/uploads/2021/04/PSG-logo-herb-Paris-Saint-Germain.png"
+                                    alt="logo PSG"> PSG</td>
+                        <tr class="table__row">
+                            <th class="table__cell" scope="row">2.</th>
+                            <td class="table__cell"><a href="https://pl.wikipedia.org/wiki/Ronaldinho">Ronaldinho</a>
+                            </td>
+                            <td class="table__cell">Napastnik</td>
+                            <td class="table__cell"><img class="flagsOfTheCounties" width="20"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png"
+                                    alt="flaga Brazylii"> Brazylia</td>
+                            <td class="table__cell"><img class="clubsLogos" width="35"
+                                    src="https://st2.depositphotos.com/1575949/7891/v/950/depositphotos_78916864-stock-illustration-retired-red-stamp-text.jpg"
+                                    alt="logo emerytura"> nie gra </td>
+                        <tr class="table__row">
+                            <th class="table__cell" scope="row">3.</th>
+                            <td class="table__cell"><a
+                                    href="https://www.transfermarkt.pl/xavi/profil/trainer/59876">Xavi</a>
+                            </td>
+                            <td class="table__cell">Pomocnik</td>
+                            <td class="table__cell"><img class="flagsOfTheCounties" width="20"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png"
+                                    alt="flaga Hiszpanii"> Hiszpania</td>
+                            <td class="table__cell"><img class="clubsLogos" width="35"
+                                    src="https://st2.depositphotos.com/1575949/7891/v/950/depositphotos_78916864-stock-illustration-retired-red-stamp-text.jpg"
+                                    alt="logo emerytura"> nie gra<p>obecnie trener FC Barcelony</p>
+                            </td>
+                        <tr class="table__row">
+                            <th class="table__cell" scope="row">4.</th>
+                            <td class="table__cell"><a
+                                    href="https://www.transfermarkt.pl/luis-suarez/profil/spieler/44352">Luis Suarez</a>
+                            </td>
+                            <td class="table__cell">Napastnik</td>
+                            <td class="table__cell"><img class="flagsOfTheCounties" width="20"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1280px-Flag_of_Uruguay.svg.png"
+                                    alt="flaga Urugwaju"> Urugwaj</td>
+                            <td class="table__cell"><img class="clubsLogos" width="20"
+                                    src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/082017/atletiko_madrid_ispaniya_old_logo4.jpg?itok=GdVa8ATv"
+                                    alt="logo Atletico Madryt"> Atletico Madryt </td>
+                        <tr class="table__row">
+                            <th class="table__cell" scope="row">5.</th>
+                            <td class="table__cell"><a
+                                    href="https://www.transfermarkt.pl/ansu-fati/profil/spieler/466810">Ansu Fati</a>
+                            </td>
+                            <td class="table__cell">Napastnik</td>
+                            <td class="table__cell"><img class="flagsOfTheCounties" width="25"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/1920px-Flag_of_Guinea-Bissau.svg.png"
+                                    alt="flaga Gwinei Bissau"> <img class="flagsOfTheCounties" width="20"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png"
+                                    alt="flaga Hiszpanii"> Republika Gwinei Bissau / Hiszpania</td>
+                            <td class="table__cell"><img class="clubsLogos" width="20"
+                                    src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1024px-FC_Barcelona_%28crest%29.svg.png"
+                                    alt="logo FC Barcelona"> FC Barcelona </td>
+                    </table>
+                </div>
+                <h3 class="subsection"> <i>Komputery</i></h3>
+                <p class="text">Oprócz sportu, który pojawiał się u mnie od <i>najmłodszych</i> lat, interesuję się
+                    komputerami, a
+                    sczególnie ich
+                    wnętrzem. Składanie, dopasowywanie, parametryzacja to coś co lubię najbardziej.</p>
+                <h3 class="subsection"> <i>Książki</i></h3>
+                <p class="text">Książki to ważna część mojego życia. Oprócz branżowej literatury, chętnie sięgam po
+                    pozycje związane
+                    z
+                    historią
+                    jak również i polityką.</p>
+                <h3 class="subsection"> <i>Filmy</i></h3>
+                <p class="text">Uwielbiam wieczorne seanse. Jestem zdania, że z każdego doświadczenia można wyciągnąć
+                    dobrą lekcję i
+                    tak
+                    też traktuję prawie wszystkie oglądane filmy. </p>
+                <h3 class="subsection"> <i>Muzyka</i></h3>
+                <p class="text">Oczywiście nie mogę zapomniec o muzyce. Minęło wiele lat zanim znalazłem swój gust. Mój
+                    gust jest
+                    bardzo
+                    szeroki. Lubię posłuchać mzyki z gatunku indi, punk czy nawet czytso elektronicznej typu trance.
+                    Każdy
+                    utwór, który wpadnie w moje ucho szybko ląduje na mojej playliscie na Spotify <a
+                        href="https://open.spotify.com/user/21mrcghteqyodhamsmkh4crya"> <img class="flagsOfTheCounties"
+                            width="25"
+                            src="https://play-lh.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w240-h480-rw"
+                            alt="Spotify"></a>.</p>
+            </section>
+            <section id="zawodowo">
+                <h2 class="section">Zawodowo</h2>
+                <p class="text"> Zawodowo pracuję w sektorze bankowym. Nadzoruję pracę Działu IT, dbam również ochronę
+                    danych
+                    osobowych. W sposób dość kompleksowy odpowiadam w firmie za obsługę informatyczną, wsparcie
+                    techniczne oraz wdrażanie i nadzorowanie nowych rozwiązań informatycznych i sieciowych, na których
+                    opiera się cała infrastruktura. Na mojej głowie spoczywa aktualizowanie wiedzy z zakresu nowych
+                    technologii, instalacja i konfiguracja sprzętu, podpinanie i szyfrowanie połączeń sieciowych LAN lub
+                    WAN. Dobór używanego sprzętu oraz jego zakup i dbanie o prawidłową eksploatację. Na ogół moja praca
+                    polega na działalności doradczej i prowadzeniu wsparcia informatycznego poprzez rozwiązywanie
+                    problemów i dbałości o stabilność.
+                </p>
+                <p>Moje obowiązki jako Inspektor Ochrony Danych to:</p>
+                <ol class="text" type="1">
+                    <li>Informowanie oraz doradzanie administratorowi, podmiotowi przetwarzającemu oraz pracownikom,
+                        którzy
+                        wykonują jakiekolwiek operacje na danych osobowych o wszystkich obowiązkach z tym związanych.
+                        Inspektor ochrony danych musi posiadać wiedzę z przepisów unijnego rozporządzenia oraz krajowych
+                        przepisów dotyczących ochrony danych osobowych, ale również wiedzę na temat regulacji
+                        dotyczących
+                        branży, w której firma funkcjonuje.</li>
+                    <li>Monitorowanie przestrzegania RODO, innych przepisów dotyczących ochrony danych osobowych,
+                        polityk
+                        i procedur obowiązujących w firmie.</li>
+                    <li>Organizowanie szkoleń dla pracowników, którzy przetwarzają dane osobowe.</li>
+                    <li>Przeprowadzanie audytów zgodności z przepisami w firmie oraz w firmach współpracujących –
+                        podmiotów przetwarzających.</li>
+                    <li>Doradzanie w kwestiach dotyczących oceny skutków dla ochrony danych. Niezależny organ doradczy w
+                        zakresie ochrony danych osobowych (Grupa Robocza Art. 29) zaleca przedsiębiorcom konsultowanie
+                        oceny
+                        skutków dla ochrony danych w następujących kwestiach:</li>
+                </ol>
+                <ul class="text">
+                    <li>faktu, czy należy przeprowadzić ocenę skutków dla ochrony danych;</li>
+                    <li>metodologii przeprowadzenia oceny skutków dla ochrony danych;</li>
+                    <li>oceny, czy należy przeprowadzić wewnętrzną ocenę skutków dla ochrony danych, czy zlecić ją
+                        podmiotowi zewnętrznemu;</li>
+                    <li>zabezpieczeń (w tym środków technicznych i organizacyjnych) stosowanych do łagodzenia
+                        wszelkich
+                        zagrożeń i praw interesów osób, których dane dotyczą;</li>
+                    <li>prawidłowości przeprowadzonej oceny skutków dla ochrony danych i zgodności jej wyników z
+                        wymogami
+                        ochrony danych (czy należy kontynuować operacje na danych osobowych oraz w jaki sposób
+                        należy je zabezpieczyć).</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">© P. Kotlarek 2022 r.</footer>
+
+
+</body>
+
+</html>

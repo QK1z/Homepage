@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walutowy</title>
+    <link href="css/stylecash.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/scriptform.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <h1 class="header">Kalkulator walutowy</h1>
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Przelicz waluty:</legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">Kwota*:</span><input class="form__field js-amount" type="number"
+                            min="0.01" step="0.01" required></label>
+                </p>
+                <p>
+                    <label><span class="form__labelText">Wymiana z:</span>
+                    </label>
+                    <select class="form__field js-inputCurrency">
+                        <option value="PLN">PLN - polski złoty</option>
+                        <option value="EUR">EUR - euro</option>
+                        <option value="USD">USD - dolar amerykański</option>
+                    </select>
+
+                </p>
+                <p><label><span class="form__labelText">Wymiana na:</span>
+                    </label>
+                    <select class="form__field js-outputCurrency">
+                        <option value="PLN">PLN - polski złoty</option>
+                        <option value="EUR">EUR - euro</option>
+                        <option value="USD">USD - dolar amerykański</option>
+                    </select>
+
+                </p>
+                <p>
+                <p>
+                    <button class="form__convertButton">Przelicz</button>
+                </p>
+                <p>
+                    <label><span class="form__labelText">Wartość:</span><input class="form__field js-result"></label>
+                </p>
+
+            </fieldset>
+            <p class="index">* Wymagane pole
+                            </p>
+                           <p>Kursy średnie z dnia 2022.09.02 </p>              
+        </form>
+    </div>
+
+</body>
+
+</html>
