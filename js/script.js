@@ -1,7 +1,7 @@
-console.log("Hakuna matata my friends!!");
+console.log("Witam i kłaniam się nisko ;)");
 
 let removeImageButton = document.querySelector(".js-removeImageButton");
-let image = document.querySelector(".image");
+let image = document.querySelector(".header__image");
 
 removeImageButton.addEventListener("click", () => {
     image.remove();

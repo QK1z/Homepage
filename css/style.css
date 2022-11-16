@@ -29,28 +29,23 @@ html {
     font-size: 30px;
     font-style: italic;
     padding: 5px;
-    
+
 }
+
 .text {
     text-align: justify;
 }
-.subsection {
+
+.subSection {
     color: #3d3d3d;
+    font-style: italic;
 }
 
-.image {
-    margin: 0 auto;
-    display: block;
-    border-radius: 12px;
-    margin-top: 35px;
-    box-shadow: 5px 5px 18px 3px #515151;
+.subSubSection {
+    color: #927c35;
+    font-style: italic;
 }
 
-.secondButton {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-}
 
 .button {
     margin: 0 auto;

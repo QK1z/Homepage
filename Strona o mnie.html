@@ -21,9 +21,9 @@
 </head>
 
 <body class="body">
-    <nav>
-        <button class="button js-otherBackground"><span class="theme">Ciemny</span> motyw</button>
-        <ul class="navigation">
+    <nav class="navigation">
+        <button class="navigation__button js-otherBackground"><span class="theme">Ciemny</span> motyw</button>
+        <ul class="navigation__list">
             <li class="navigation__item"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
             <li class="navigation__item"><a class="navigation__link" href="#zainteresowania">Zainteresowania</a></li>
             <li class="navigation__item"><a class="navigation__link" href="#zawodowo">Zawodowo</a></li>
@@ -32,11 +32,11 @@
     <main>
         <header class="header">
             <h1 class="header__name">Paweł Kotlarek</h1>
-            <div class="header__image">
-                <img class="image" width="200" src="https://imgupload.pl/images/2022/06/08/my2.jpg" alt="with my wife">
+            <div class="header__imageContainer">
+                <img class="header__image" width="300" src="https://imgupload.pl/images/2022/06/08/my2.jpg" alt="with my wife">
             </div>
             <p>
-                <button class="secondButton js-removeImageButton">Usuń zdjęcie</button>
+                <button class="header__button js-removeImageButton">Usuń zdjęcie</button>
             </p>
         </header>
         <article>
@@ -45,17 +45,14 @@
 
                 <p class="text"> Nie jestem ideałem, choć nie ukrywam, że fajnie by było nim być 😅 Staram się być dobry
                     dla wszystkich, bo to dobro zawsze wraca. Jestem dość spokojny, ale miewam gorsze dni jak każdy.
-                    Bardzo lubie rozmawiać, pomagać innym, niekoniecznie licząc na odwzajemnienie. Staram się nie
-                    oceniać innych. Poniżej inne ciekawostki dotyczące mojej osoby.</p>
+                    Bardzo Lubię rozmawiać, pomagać innym, niekoniecznie licząc na odwzajemnienie.</p>
             </section>
             <section id="zainteresowania">
                 <h2 class="section">Zainteresowania</h2>
-                <h3 class="section"><i>Sport</i></h3>
-                <p class="text">Od dziecka aktywność była dla mnie czymś naturalnym. Od niedawna stawiam swoje pierwsze
-                    kroki grając
-                    w disc golfa, poza tym interesuję się piłką nożną, ale na chwilę obecną wyłącznie jako kibic zza
+                <h3 class="subSection">Sport - Piłka nożna</h3>
+                <p class="text">Od dziecka aktywność była dla mnie czymś naturalnym. Od dziecka interesuję się piłką nożną, ale na chwilę obecną wyłącznie jako kibic zza
                     ekranu telewizora, oglądając swoją ulubioną <span class="important"><strong>FC Barcelonę
-                        </strong></span>.
+                        </strong></span>. Gra w tym wieku groziłaby zawałem 😅.
                 </p>
                 <p class="text">Poniżej zestawienie moich ulubionych zawodników (byłych i obecnych):</p>
                 <div class="tableContainer">
@@ -132,45 +129,136 @@
                                     alt="logo FC Barcelona"> FC Barcelona </td>
                     </table>
                 </div>
-                <h3 class="subsection"> <i>Komputery</i></h3>
-                <p class="text">Oprócz sportu, który pojawiał się u mnie od <i>najmłodszych</i> lat, interesuję się
-                    komputerami, a
-                    sczególnie ich
-                    wnętrzem. Składanie, dopasowywanie, parametryzacja to coś co lubię najbardziej.</p>
-                <h3 class="subsection"> <i>Książki</i></h3>
-                <p class="text">Książki to ważna część mojego życia. Oprócz branżowej literatury, chętnie sięgam po
-                    pozycje związane
-                    z
-                    historią
-                    jak również i polityką.</p>
-                <h3 class="subsection"> <i>Filmy</i></h3>
-                <p class="text">Uwielbiam wieczorne seanse. Jestem zdania, że z każdego doświadczenia można wyciągnąć
-                    dobrą lekcję i
-                    tak
-                    też traktuję prawie wszystkie oglądane filmy. </p>
-                <h3 class="subsection"> <i>Muzyka</i></h3>
-                <p class="text">Oczywiście nie mogę zapomniec o muzyce. Minęło wiele lat zanim znalazłem swój gust. Mój
-                    gust jest
-                    bardzo
-                    szeroki. Lubię posłuchać mzyki z gatunku indi, punk czy nawet czytso elektronicznej typu trance.
-                    Każdy
-                    utwór, który wpadnie w moje ucho szybko ląduje na mojej playliscie na Spotify <a
-                        href="https://open.spotify.com/user/21mrcghteqyodhamsmkh4crya"> <img class="flagsOfTheCounties"
-                            width="25"
-                            src="https://play-lh.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w240-h480-rw"
-                            alt="Spotify"></a>.</p>
+                <h3 class="subSection">Sport - Disc golf</h3>
+                <h4 class="subSubSection">Jak grać?</h4>
+                <p class="text">Nie przypuszczałem, że w moim wieku kiedykolwiek pzafacynuję się nowym sportem. Zmieniło
+                    się to diametralnie odkąd usłyszałem o <i>disc golfie</i>.
+                    W disc golf gra się podobnie jak w klasycznego golfa. Zamiast piłeczki i kijów, w naszej odmianie
+                    gry, gracze używają latających dysków, nazywanych też Frisbee®. Generalnie reguły gry są analogiczne
+                    – celem jest „zaliczenie” każdego kolejnego „dołka” (tu: kosza) poprzez możliwie najmniejszą ilość
+                    „uderzeń” (tu: rzutów dyskiem). Jako dyscyplina sportu, disc golf został sformalizowany w latach
+                    siedemdziesiątych.
+
+                    Dysk jest rzucany ze specjalnie wyznaczonej strefy rzutu (tzw. „tee”) w kierunku kosza (tzw. „hole”
+                    lub „dołek”). Dołek może być – i zazwyczaj jest – jednym z wielu discgolfowych koszy, które
+                    wyglądają tak:</p>
+                <div class="subHeader">
+                    <img class="subHeader" width="400" src="https://imgupload.pl/images/2022/11/16/discgolfbasket.jpg"
+                        alt="discgolfbasket">
+                </div>
+                <p class="text">W trakcie gry – zanim gracz zaliczy kolejny dołek, każdy kolejny rzut rozpoczyna
+                    dokładnie z tego miejsca, w które spadł dysk w wyniku poprzedniego rzutu. Drzewa, krzewy czy
+                    nierówności terenu na polu do disc golfa, stanowią naturalne, wymagające przeszkody dla golfisty. Po
+                    kilku (lub kilkunastu:-)) próbach, w końcu gracz wykonuje ostatni rzut (najczęściej wykorzystując do
+                    tego celu dysk typu „putter”), w wyniku którego dysk ląduje w koszu – dołek zaliczony!
+
+                    Disc golf daje graczom podobne radości i frustracje, jak klasyczny golf. Dysk może utonąć w jeziorku
+                    przy próbie rzutu na długi dystans. Może też uderzyć w drzewo w połowie swojego lotu, który miał
+                    skończyć się bezpośrednim lądowaniem w koszu. Istnieje jednak kilka różnic. W disc golfa można
+                    najczęściej grać zupełnie za darmo w publicznych parkach, chociaż powstają również pola płatne.
+                    Prawdopodobnie nigdy nie będzie potrzeby wynajmowania wózka golfowego, choć czasem w disc golfa gra
+                    się również na tradycyjnych polach golfowych. Wreszcie – „tee time” w przypadku disc golfa kojarzy
+                    się bardziej ze współzawodnictwem niż odpoczynkiem po grze.
+                    Disc golf jest grą, która potrafi angażować, bawić i pasjonować ludzi w każdym wieku, każdej płci,
+                    dowolnego statusu ekonomicznego. Jest po prostu formą fantastycznej codziennej fizycznej aktywności.
+                    Ponieważ bardzo łatwo jest się nauczyć w nią grać – nie wyklucza absolutnie nikogo. Gracze po prostu
+                    biorą dyski w dłonie i grają – niespecjalnie zastanawiając się nad swoimi umiejętnościami.
+                    Ponieważ disc golf jest sformalizowaną dyscypliną sportu, istnieją na świecie organizacje
+                    zrzeszające graczy. Największą z nich i najbardziej znaną jest <i>The Professional Disc Golf
+                        Association (PDGA)</i> – organizacja skupiająca ponad 120 tys. czynnych członków z 54 krajów.
+                    PDGA stanowi również zarządcze tej dyscypliny oraz zajmuje się promocją i zrównoważonym rozwojem
+                    disc golfa. Promuje sport poprzez uczestnictwo graczy, organizację turniejów, udział widzów,
+                    kontrolę zasad i standardów konkurencji oraz edukację publiczną i pomoc. Na całym świecie istnieje
+                    obecnie ponad 8 tys. pól do disc golfa, praktycznie codziennie powstają kolejne.</p>
+                <h4 class="subSubSection">Rodzaje dysków</h4>
+                <p class="text">Wyróżniamy 3 rodzaje dysków:</p>
+                <p class="text"><strong>Putt & Approach:</strong> Dyski przeznaczone do puttowania oraz krótkich i
+                    średnio dalekich rzutów.</p>
+                <p class="text"><strong>Midrange:</strong> Dyski przeznaczone do rzutów na średnią odległość. Idealnie
+                    sprawdzają się, gdy potrzebujemy więcej precyzji niż dystansu.</p>
+                <p class="text"><strong>Driver:</strong> Driver to dysk przeznaczony do pokonywania maksymalnych
+                    dystansów. Jego budowa zapewnia szybkość i pokonywanie oporów powietrza podczas lotu. Wśród tej
+                    grupy można podzielić dyski na <i>fairway driver</i> oraz <i>distance driver</i>.</p>
+                <p class="text">Profile dysków i ich przykładowe zdjęcia:</p>
+                <div class="subHeader">
+                    <img class="subHeader__image" width="700"
+                        src="https://imgupload.pl/images/2022/11/16/discgolf-for-beginners.jpg" alt="discprofile">
+                </div>
+                <div class="subHeader">
+                    <img class="subHeader__image" width="700" src="https://imgupload.pl/images/2022/11/16/discs.jpg" alt="discs">
+                </div>
+                <h4 class="subSubSection">Co oznaczają cyfry na dysku?</h4>
+                <div class="subHeader">
+                    <img class="subHeader__image" width="920" src="https://imgupload.pl/images/2022/11/16/discnumber.jpg"
+                        alt="discnumber">
+                    <p class="text">Są to parametry określające zachowanie się dysku w powietrzu oraz podpowiadające
+                        graczowi odpowiedni dobór dysku do konkretnego rzutu (etapu gry i sytuacji).</p>
+                    <p class="text"><strong>Speed (szybkość):</strong> mówi jak mocno powinieneś rzucić dysk, aby
+                        osiągnął
+                        swoją zaprojektowaną prędkość; ten parametr ma skalę 1-15 i osiąga najwyższe wartości w
+                        przypadku
+                        dysków distance driver (dyski o najostrzejszej krawędzi).</p>
+                    <p class="text"><strong>Glide (poślizg, szybowanie):</strong> mówi jak długo dysk pozostanie w
+                        powietrzu. Skala parametru: 1-7. Im wyższa wartość glide'u, tym dłużej dysk będzie leciał,
+                        pokona
+                        większy dystans, jednak kierunek lutu będzie mniej kontrolowany, tym bardziej w wietrznych
+                        warunkach. Niska wartość glide'u oznacza, krótszy lot dysku, ale jednocześnie lepszą kontrolę
+                        trajektorii jego lotu.</p>
+                    <p class="text"><strong>Turn (skręt):</strong> mówi jaka jest tendencja dysku do skręcania w lewo
+                        lub
+                        prawo, w zależności od rodzaju i siły rzutu. Turn ma nietypową skalę od +1 do -5. Dyski z
+                        górnego
+                        przedziału będą miały tendencję do lotu w lewo, natomiast mniejszy turn oznacza lot w prawo (w
+                        przypadku rzutu praworęcznym backhandem). </p>
+                    <p class="text"><strong>Fade (opadanie):</strong> mówi jak bardzo dysk będzie skręcał w lewo pod
+                        koniec
+                        swojego lotu . Skala parametru: 0-5. Dyski z fade 0 będą opadać gładko i na wprost, natomiast z
+                        fade
+                        5 będą miały ostry, pionowy finisz w lewo (w przypadku rzutu praworęcznym backhandem).</p>
+                    <p class="text">Podsumowując, cyfry umieszczone na dysku lub w opisie dysku w sklepie, oznaczają:
+                    </p>
+                    <div class="subHeader">
+                        <img class="subHeader__image" width="600" src="https://imgupload.pl/images/2022/11/16/discparametr.jpg"
+                            alt="parametrydisc">
+                    </div>
+
+                    <h3 class="subSection">Komputery</h3>
+                    <p class="text">Oprócz sportu, który pojawiał się u mnie od <i>najmłodszych</i> lat, interesuję się
+                        komputerami, a
+                        sczególnie ich
+                        wnętrzem. Składanie, dopasowywanie, parametryzacja to coś co lubię najbardziej.</p>
+                    <h3 class="subSection">Książki</h3>
+                    <p class="text">Książki to ważna część mojego życia. Oprócz branżowej literatury, chętnie sięgam po
+                        pozycje związane
+                        z
+                        historią
+                        jak również i polityką.</p>
+                    <h3 class="subSection">Filmy</h3>
+                    <p class="text">Uwielbiam wieczorne seanse. Jestem zdania, że z każdego doświadczenia można
+                        wyciągnąć
+                        dobrą lekcję i
+                        tak
+                        też traktuję prawie wszystkie oglądane filmy. </p>
+                    <h3 class="subSection">Muzyka</h3>
+                    <p class="text">Oczywiście nie mogę zapomniec o muzyce. Minęło wiele lat zanim znalazłem swój gust.
+                        Mój
+                        gust jest
+                        bardzo
+                        szeroki. Lubię posłuchać mzyki z gatunku indi, punk czy nawet czytso elektronicznej typu trance.
+                        Każdy
+                        utwór, który wpadnie w moje ucho szybko ląduje na mojej playliscie na Spotify <a
+                            href="https://open.spotify.com/user/21mrcghteqyodhamsmkh4crya"> <img
+                                class="flagsOfTheCounties" width="25"
+                                src="https://play-lh.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w240-h480-rw"
+                                alt="Spotify"></a>.</p>
             </section>
             <section id="zawodowo">
                 <h2 class="section">Zawodowo</h2>
                 <p class="text"> Zawodowo pracuję w sektorze bankowym. Nadzoruję pracę Działu IT, dbam również ochronę
-                    danych
-                    osobowych. W sposób dość kompleksowy odpowiadam w firmie za obsługę informatyczną, wsparcie
-                    techniczne oraz wdrażanie i nadzorowanie nowych rozwiązań informatycznych i sieciowych, na których
-                    opiera się cała infrastruktura. Na mojej głowie spoczywa aktualizowanie wiedzy z zakresu nowych
-                    technologii, instalacja i konfiguracja sprzętu, podpinanie i szyfrowanie połączeń sieciowych LAN lub
-                    WAN. Dobór używanego sprzętu oraz jego zakup i dbanie o prawidłową eksploatację. Na ogół moja praca
-                    polega na działalności doradczej i prowadzeniu wsparcia informatycznego poprzez rozwiązywanie
-                    problemów i dbałości o stabilność.
+                    danych osobowych. Odpowiadam za nadzorowanie nowych rozwiązań informatycznych, na których
+                    opiera się cała infrastruktura. Na ogół moja praca polega na działalności doradczej i prowadzeniu
+                    wsparcia informatycznego poprzez rozwiązywanie
+                    problemów i pilnowanie aby nie doszło do zakłóceń w ciągłości pracy systemu.
                 </p>
                 <p>Moje obowiązki jako Inspektor Ochrony Danych to:</p>
                 <ol class="text" type="1">
