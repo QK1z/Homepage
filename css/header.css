@@ -16,24 +16,41 @@
 .header {
     margin: 0 auto;
 }
+
 .header__imageContainer {
-    overflow-x: auto;
     max-width: 100%;
-    margin: 0 auto;
-    display: block;
     border-radius: 12px;
     margin-bottom: 10px;
-    box-shadow: 5px 5px 18px 3px #515151;
+    text-align: center;
 }
 
 .header__image {
     border-color: #3d3d3d;
     border-radius: 12px;
-    text-align: center;
+    box-shadow: 3px 3px 15px 3px #515151;
 }
 
 .header__button {
     text-align: center;
     margin: 0 auto;
     display: block;
+}
+
+.subHeader__imageContainer {
+    overflow-x: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    text-align: center;
+    padding: 25px;
+}
+
+.subHeader__image {
+    border-color: #3d3d3d;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 3px 3px 15px 3px #515151;
+    
+     
+
 }
