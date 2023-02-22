@@ -27,12 +27,12 @@ html {
     margin: auto 0;
 }
 
-.dark {
+.body--dark {
     color: #f1f1f1;
-    background: hsl(0, 0%, 63%);
+    background: hsl(0, 0%, 40%);
 }
 
-.background {
+.background {s
     background-color: rgb(255, 255, 250);
 }
 

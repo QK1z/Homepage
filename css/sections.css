@@ -1,8 +1,8 @@
-.section {
+.section__header {
     border-style: solid;
     border-width: 1px 0 1px 0;
     border-color: #848a83;
-    color: #3d3d3d;
+    color: hsl(199, 94%, 21%);
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 30px;
@@ -10,13 +10,24 @@
     padding: 5px;
 }
 
-.subSection {
-    color: #3d3d3d;
+.section__text {
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    border-style: none;
+}
+
+.section__subHeader {
+    color: hsl(0, 0%, 32%);
     font-style: italic;
     text-align: left;
 }
 
-.subSubSection {
+.section__subSubHeader {
     color: #927c35;
     font-style: italic;
+}
+
+.section__important {
+    color: rgb(19, 88, 179);
 }

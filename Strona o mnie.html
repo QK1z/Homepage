@@ -21,9 +21,9 @@
     <script defer src="js/script.js"></script>
 </head>
 
-<body class="body">
+<body class="body js-body">
     <nav class="navigation">
-        <button class="navigation__button js-otherBackground"><span class="theme">Ciemny</span> motyw</button>
+        <button class="navigation__button js-otherBackground"><span class="js-theme">Ciemny</span> motyw</button>
         <ul class="navigation__list">
             <li class="navigation__item"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
             <li class="navigation__item"><a class="navigation__link" href="#zainteresowania">Zainteresowania</a></li>
@@ -34,8 +34,8 @@
         <header class="header">
             <h1 class="header__name">Paweł Kotlarek</h1>
             <div class="header__imageContainer">
-                <img class="header__image" width="300" src="https://imgupload.pl/images/2022/06/08/my2.jpg"
-                    alt="with my wife">
+                <img class="header__image js-header__image" width="300"
+                    src="https://imgupload.pl/images/2022/06/08/my2.jpg" alt="with my wife">
             </div>
             <p>
                 <button class="header__button js-removeImageButton">Usuń zdjęcie</button>
@@ -45,14 +45,16 @@
             <section class="section" id="o-mnie">
                 <h2 class="section__header">Kilka słów o mnie</h2>
 
-                <p class="section__text"> Nie jestem ideałem, choć nie ukrywam, że fajnie by było nim być 😅 Staram się być dobry
+                <p class="section__text"> Nie jestem ideałem, choć nie ukrywam, że fajnie by było nim być 😅 Staram się
+                    być dobry
                     dla wszystkich, bo to dobro zawsze wraca. Jestem dość spokojny, ale miewam gorsze dni jak każdy.
                     Bardzo Lubię rozmawiać, pomagać innym, niekoniecznie licząc na odwzajemnienie.</p>
             </section>
             <section class="section" id="zainteresowania">
                 <h2 class="section__header">Zainteresowania</h2>
                 <h3 class="section__subHeader">Sport - Piłka nożna</h3>
-                <p class="section__text">Od dziecka aktywność była dla mnie czymś naturalnym. Od dziecka interesuję się piłką
+                <p class="section__text">Od dziecka aktywność była dla mnie czymś naturalnym. Od dziecka interesuję się
+                    piłką
                     nożną, ale na chwilę obecną wyłącznie jako kibic zza
                     ekranu telewizora, oglądając swoją ulubioną <span class="section__important"><strong>FC Barcelonę
                         </strong></span>. Gra w tym wieku groziłaby zawałem 😅.
@@ -134,7 +136,8 @@
                 </div>
                 <h3 class="section__subHeader">Sport - Disc golf</h3>
                 <h4 class="section__subSubHeader">Jak grać?</h4>
-                <p class="section__text">Nie przypuszczałem, że w moim wieku kiedykolwiek zafascynuję się nowym sportem. Zmieniło
+                <p class="section__text">Nie przypuszczałem, że w moim wieku kiedykolwiek zafascynuję się nowym sportem.
+                    Zmieniło
                     się to diametralnie odkąd usłyszałem o <i>disc golfie</i>.
                     W disc golf gra się podobnie jak w klasycznego golfa. Zamiast piłeczki i kijów, w naszej odmianie
                     gry, gracze używają latających dysków, nazywanych też Frisbee®. Generalnie reguły gry są analogiczne
@@ -145,11 +148,12 @@
                     Dysk jest rzucany ze specjalnie wyznaczonej strefy rzutu (tzw. „tee”) w kierunku kosza (tzw. „hole”
                     lub „dołek”). Dołek może być – i zazwyczaj jest – jednym z wielu discgolfowych koszy, które
                     wyglądają tak:</p>
-                <div class="subHeader__imageContainer">
-                    <img class="subHeader__image" width="400"
+                <div class="section__imageContainer">
+                    <img class="section__image" width="400"
                         src="https://imgupload.pl/images/2022/11/16/discgolfbasket.jpg" alt="discgolfbasket">
                 </div>
-                <p class="section__text">W trakcie gry – zanim gracz zaliczy kolejny dołek, każdy kolejny rzut rozpoczyna
+                <p class="section__text">W trakcie gry – zanim gracz zaliczy kolejny dołek, każdy kolejny rzut
+                    rozpoczyna
                     dokładnie z tego miejsca, w które spadł dysk w wyniku poprzedniego rzutu. Drzewa, krzewy czy
                     nierówności terenu na polu do disc golfa, stanowią naturalne, wymagające przeszkody dla golfisty. Po
                     kilku (lub kilkunastu:-)) próbach, w końcu gracz wykonuje ostatni rzut (najczęściej wykorzystując do
@@ -175,91 +179,103 @@
                     obecnie ponad 8 tys. pól do disc golfa, praktycznie codziennie powstają kolejne.</p>
                 <h4 class="section__subSubHeader">Rodzaje dysków</h4>
                 <p class="section__text">Wyróżniamy 3 rodzaje dysków:</p>
-                <p class="section__text"><strong>Putt & Approach:</strong> Dyski przeznaczone do puttowania oraz krótkich i
+                <p class="section__text"><strong>Putt & Approach:</strong> Dyski przeznaczone do puttowania oraz
+                    krótkich i
                     średnio dalekich rzutów.</p>
-                <p class="section__text"><strong>Midrange:</strong> Dyski przeznaczone do rzutów na średnią odległość. Idealnie
+                <p class="section__text"><strong>Midrange:</strong> Dyski przeznaczone do rzutów na średnią odległość.
+                    Idealnie
                     sprawdzają się, gdy potrzebujemy więcej precyzji niż dystansu.</p>
-                <p class="section__text"><strong>Driver:</strong> Driver to dysk przeznaczony do pokonywania maksymalnych
+                <p class="section__text"><strong>Driver:</strong> Driver to dysk przeznaczony do pokonywania
+                    maksymalnych
                     dystansów. Jego budowa zapewnia szybkość i pokonywanie oporów powietrza podczas lotu. Wśród tej
                     grupy można podzielić dyski na <i>fairway driver</i> oraz <i>distance driver</i>.</p>
                 <p class="section__text">Profile dysków i ich przykładowe zdjęcia:</p>
-                <div class="subHeader__imageContainer">
-                    <img class="subHeader__image" width="700"
+                <div class="section__imageContainer">
+                    <img class="section__image" width="700"
                         src="https://imgupload.pl/images/2022/11/16/discgolf-for-beginners.jpg" alt="discprofile">
                 </div>
-                <div class="subHeader__imageContainer">
-                    <img class="subHeader__image" width="700" src="https://imgupload.pl/images/2022/11/16/discs.jpg"
+                <div class="section__imageContainer">
+                    <img class="section__image" width="700" src="https://imgupload.pl/images/2022/11/16/discs.jpg"
                         alt="discs">
                 </div>
                 <h4 class="section__subSubHeader">Co oznaczają cyfry na dysku?</h4>
-                
-                    <p class="section__text">Są to parametry określające zachowanie się dysku w powietrzu oraz podpowiadające
-                        graczowi odpowiedni dobór dysku do konkretnego rzutu (etapu gry i sytuacji).</p>
-                        <div class="subHeader__imageContainer">
-                            <img class="subHeader__image" width="900"
-                                src="https://imgupload.pl/images/2022/11/16/discnumber.jpg" alt="discnumber">
-                    <p class="section__text"><strong>Speed (szybkość):</strong> mówi jak mocno powinieneś rzucić dysk, aby
-                        osiągnął
-                        swoją zaprojektowaną prędkość; ten parametr ma skalę 1-15 i osiąga najwyższe wartości w
-                        przypadku
-                        dysków distance driver (dyski o najostrzejszej krawędzi).</p>
-                    <p class="section__text"><strong>Glide (poślizg, szybowanie):</strong> mówi jak długo dysk pozostanie w
-                        powietrzu. Skala parametru: 1-7. Im wyższa wartość glide'u, tym dłużej dysk będzie leciał,
-                        pokona
-                        większy dystans, jednak kierunek lutu będzie mniej kontrolowany, tym bardziej w wietrznych
-                        warunkach. Niska wartość glide'u oznacza, krótszy lot dysku, ale jednocześnie lepszą kontrolę
-                        trajektorii jego lotu.</p>
-                    <p class="section__text"><strong>Turn (skręt):</strong> mówi jaka jest tendencja dysku do skręcania w lewo
-                        lub
-                        prawo, w zależności od rodzaju i siły rzutu. Turn ma nietypową skalę od +1 do -5. Dyski z
-                        górnego
-                        przedziału będą miały tendencję do lotu w lewo, natomiast mniejszy turn oznacza lot w prawo (w
-                        przypadku rzutu praworęcznym backhandem). </p>
-                    <p class="section__text"><strong>Fade (opadanie):</strong> mówi jak bardzo dysk będzie skręcał w lewo pod
-                        koniec
-                        swojego lotu . Skala parametru: 0-5. Dyski z fade 0 będą opadać gładko i na wprost, natomiast z
-                        fade
-                        5 będą miały ostry, pionowy finisz w lewo (w przypadku rzutu praworęcznym backhandem).</p>
-                    <p class="section__text">Podsumowując, cyfry umieszczone na dysku lub w opisie dysku w sklepie, oznaczają:
-                    </p>
-                    <div class="subHeader__imageContainer">
-                        <img class="subHeader__image" width="600"
-                            src="https://imgupload.pl/images/2022/11/16/discparametr.jpg" alt="parametrydisc">
-                    </div>
 
-                    <h3 class="section__subHeader">Komputery</h3>
-                    <p class="section__text">Oprócz sportu, który pojawiał się u mnie od <i>najmłodszych</i> lat, interesuję się
-                        komputerami, a
-                        sczególnie ich
-                        wnętrzem. Składanie, dopasowywanie, parametryzacja to coś co lubię najbardziej.</p>
-                    <h3 class="section__subHeader">Książki</h3>
-                    <p class="section__text">Książki to ważna część mojego życia. Oprócz branżowej literatury, chętnie sięgam po
-                        pozycje związane
-                        z
-                        historią
-                        jak również i polityką.</p>
-                    <h3 class="section__subHeader">Filmy</h3>
-                    <p class="section__text">Uwielbiam wieczorne seanse. Jestem zdania, że z każdego doświadczenia można
-                        wyciągnąć
-                        dobrą lekcję i
-                        tak
-                        też traktuję prawie wszystkie oglądane filmy. </p>
-                    <h3 class="section__subHeader">Muzyka</h3>
-                    <p class="section__text">Oczywiście nie mogę zapomniec o muzyce. Minęło wiele lat zanim znalazłem swój gust.
-                        Mój
-                        gust jest
-                        bardzo
-                        szeroki. Lubię posłuchać mzyki z gatunku indi, punk czy nawet czytso elektronicznej typu trance.
-                        Każdy
-                        utwór, który wpadnie w moje ucho szybko ląduje na mojej playliscie na Spotify <a
-                            href="https://open.spotify.com/user/21mrcghteqyodhamsmkh4crya"> <img
-                                class="flagsOfTheCounties" width="25"
-                                src="https://play-lh.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w240-h480-rw"
-                                alt="Spotify"></a>.</p>
+                <p class="section__text">Są to parametry określające zachowanie się dysku w powietrzu oraz
+                    podpowiadające
+                    graczowi odpowiedni dobór dysku do konkretnego rzutu (etapu gry i sytuacji).</p>
+                <div class="section__imageContainer">
+                    <img class="section__image" width="900" src="https://imgupload.pl/images/2022/11/16/discnumber.jpg"
+                        alt="discnumber">
+                </div>
+                <p class="section__text"><strong>Speed (szybkość):</strong> mówi jak mocno powinieneś rzucić dysk, aby
+                    osiągnął
+                    swoją zaprojektowaną prędkość; ten parametr ma skalę 1-15 i osiąga najwyższe wartości w
+                    przypadku
+                    dysków distance driver (dyski o najostrzejszej krawędzi).</p>
+                <p class="section__text"><strong>Glide (poślizg, szybowanie):</strong> mówi jak długo dysk pozostanie w
+                    powietrzu. Skala parametru: 1-7. Im wyższa wartość glide'u, tym dłużej dysk będzie leciał,
+                    pokona
+                    większy dystans, jednak kierunek lutu będzie mniej kontrolowany, tym bardziej w wietrznych
+                    warunkach. Niska wartość glide'u oznacza, krótszy lot dysku, ale jednocześnie lepszą kontrolę
+                    trajektorii jego lotu.</p>
+                <p class="section__text"><strong>Turn (skręt):</strong> mówi jaka jest tendencja dysku do skręcania w
+                    lewo
+                    lub
+                    prawo, w zależności od rodzaju i siły rzutu. Turn ma nietypową skalę od +1 do -5. Dyski z
+                    górnego
+                    przedziału będą miały tendencję do lotu w lewo, natomiast mniejszy turn oznacza lot w prawo (w
+                    przypadku rzutu praworęcznym backhandem). </p>
+                <p class="section__text"><strong>Fade (opadanie):</strong> mówi jak bardzo dysk będzie skręcał w lewo
+                    pod
+                    koniec
+                    swojego lotu . Skala parametru: 0-5. Dyski z fade 0 będą opadać gładko i na wprost, natomiast z
+                    fade
+                    5 będą miały ostry, pionowy finisz w lewo (w przypadku rzutu praworęcznym backhandem).</p>
+                <p class="section__text">Podsumowując, cyfry umieszczone na dysku lub w opisie dysku w sklepie,
+                    oznaczają:
+                </p>
+                <div class="section__imageContainer">
+                    <img class="section__image" width="600"
+                        src="https://imgupload.pl/images/2022/11/16/discparametr.jpg" alt="parametrydisc">
+                </div>
+
+                <h3 class="section__subHeader">Komputery</h3>
+                <p class="section__text">Oprócz sportu, który pojawiał się u mnie od <i>najmłodszych</i> lat, interesuję
+                    się
+                    komputerami, a
+                    sczególnie ich
+                    wnętrzem. Składanie, dopasowywanie, parametryzacja to coś co lubię najbardziej.</p>
+                <h3 class="section__subHeader">Książki</h3>
+                <p class="section__text">Książki to ważna część mojego życia. Oprócz branżowej literatury, chętnie
+                    sięgam po
+                    pozycje związane
+                    z
+                    historią
+                    jak również i polityką.</p>
+                <h3 class="section__subHeader">Filmy</h3>
+                <p class="section__text">Uwielbiam wieczorne seanse. Jestem zdania, że z każdego doświadczenia można
+                    wyciągnąć
+                    dobrą lekcję i
+                    tak
+                    też traktuję prawie wszystkie oglądane filmy. </p>
+                <h3 class="section__subHeader">Muzyka</h3>
+                <p class="section__text">Oczywiście nie mogę zapomniec o muzyce. Minęło wiele lat zanim znalazłem swój
+                    gust.
+                    Mój
+                    gust jest
+                    bardzo
+                    szeroki. Lubię posłuchać mzyki z gatunku indi, punk czy nawet czytso elektronicznej typu trance.
+                    Każdy
+                    utwór, który wpadnie w moje ucho szybko ląduje na mojej playliscie na Spotify <a
+                        href="https://open.spotify.com/user/21mrcghteqyodhamsmkh4crya"> <img class="flagsOfTheCounties"
+                            width="25"
+                            src="https://play-lh.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w240-h480-rw"
+                            alt="Spotify"></a>.</p>
             </section>
             <section class="section" id="zawodowo">
                 <h2 class="section__header">Zawodowo</h2>
-                <p class="section__text"> Zawodowo pracuję w sektorze bankowym. Nadzoruję pracę Działu IT, dbam również ochronę
+                <p class="section__text"> Zawodowo pracuję w sektorze bankowym. Nadzoruję pracę Działu IT, dbam również
+                    ochronę
                     danych osobowych. Odpowiadam za nadzorowanie nowych rozwiązań informatycznych, na których
                     opiera się cała infrastruktura. Na ogół moja praca polega na działalności doradczej i prowadzeniu
                     wsparcia informatycznego poprzez rozwiązywanie
