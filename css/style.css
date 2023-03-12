@@ -19,6 +19,10 @@ html {
     line-height: 1.5;
 }
 
+.hidden {
+    display: none;
+}
+
 .text {
     text-align: justify;
 }
@@ -32,7 +36,6 @@ html {
     background: hsl(0, 0%, 40%);
 }
 
-.background {s
-    background-color: rgb(255, 255, 250);
+.background {
+    s background-color: rgb(255, 255, 250);
 }
-
