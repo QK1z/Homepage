@@ -1,6 +1,5 @@
 # Homepage
 My first homepage
-Below is my first website. Beginnings can be difficult. I took the first steps. Does it look good? Judge for yourself. Over time, my homepage will be modified and improved. We'll see what comes of it :)
-In this project I used BEM technology, I made my first steps with CSS and small steps with Java Script.
+Below is a link to my first website. Beginnings can be difficult, but I approached it with great enthusiasm and took my first steps in this direction. Over time, my site will be modified and improved, in proportion to my growing knowledge in frontend development. For this project, I used the BEM methodology and began styling using CSS, using CamelCase. I also utilized other technologies to enhance the functionality and design of the site. The website is dedicated to my interests, which include football and disc golf, among other things. I invite you to follow my progress!
 
 Check it out: https://qk1z.github.io/Homepage/
