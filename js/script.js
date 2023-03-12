@@ -1,22 +1,20 @@
-console.log("Witam i kłaniam się nisko ;)");
+const welcome = () => {
+    console.log("Witam i kłaniam się nisko ;)");
+};
 
-let removeImageButton = document.querySelector(".js-removeImageButton");
-let image = document.querySelector(".js-header__image");
+const hideImageButton = document.querySelector(".js-hideImageButton");
+const image = document.querySelector(".js-header__image");
 
-removeImageButton.addEventListener("click", () => {
-    image.remove();
+hideImageButton.addEventListener("click", () => {
+    image.classList.toggle("hidden");
+    hideImageButton.textContent = image.classList.contains("hidden") ? "Pokaż zdjęcie" : "Ukryj zdjęcie";
 });
 
-let otherBackground = document.querySelector(".js-otherBackground");
-let body = document.querySelector(".js-body");
-let theme = document.querySelector(".js-theme");
+const otherBackground = document.querySelector(".js-otherBackground");
+const body = document.querySelector(".js-body");
+const theme = document.querySelector(".js-theme");
 
 otherBackground.addEventListener("click", () => {
     body.classList.toggle("body--dark");
-
-    if (body.classList.contains("body--dark")) {
-        theme.innerText = "Jasny";
-    } else {
-        theme.innerText = "Ciemny";
-    }
+    theme.textContent = body.classList.contains("body--dark") ? "Jasny" : "Ciemny";
 });
